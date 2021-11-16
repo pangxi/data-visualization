@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="001da4ee-8833-432d-9545-761bbfee4184" name="Default Changelist" comment="logs">
-      <change afterPath="$PROJECT_DIR$/chapter_16/highs_lows.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_16/highs_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_16/highs_lows.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +217,7 @@
       <workItem from="1636624643343" duration="210000" />
       <workItem from="1636683154030" duration="8038000" />
       <workItem from="1637029215178" duration="303000" />
-      <workItem from="1637029529557" duration="14368000" />
+      <workItem from="1637029529557" duration="15495000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1636514887799</created>
@@ -275,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637049680187</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="logs">
+      <created>1637056439920</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637056439920</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +309,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="logs" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_visualization$highs_lows.coverage" NAME="highs_lows Coverage Results" MODIFIED="1637056170865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_16" />
+    <SUITE FILE_PATH="coverage/data_visualization$highs_lows.coverage" NAME="highs_lows Coverage Results" MODIFIED="1637057338601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_16" />
     <SUITE FILE_PATH="coverage/data_visualization$rw_visual.coverage" NAME="rw_visual Coverage Results" MODIFIED="1636688750093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random-walk" />
     <SUITE FILE_PATH="coverage/data_visualization$die_visual.coverage" NAME="die_visual Coverage Results" MODIFIED="1637033834567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygal-types" />
     <SUITE FILE_PATH="coverage/data_visualization$hexbin.coverage" NAME="hexbin Coverage Results" MODIFIED="1636598426789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
