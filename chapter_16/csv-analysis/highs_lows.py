@@ -17,10 +17,8 @@ with open(filename) as f:
         except ValueError:
             print(current_date, 'missing data')
         else:
-
             dates.append(current_date)
             highs.append(high)
-
             lows.append(low)
 
     # 根据数据绘制图形

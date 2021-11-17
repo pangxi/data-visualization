@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="001da4ee-8833-432d-9545-761bbfee4184" name="Default Changelist" comment="logs">
+      <change afterPath="$PROJECT_DIR$/chapter_16/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_16/csv-analysis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/americas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/countries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/country_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/na_populations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/population_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/world_population.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_16/highs_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_16/highs_lows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_16/death_valley_2014.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_16/csv-analysis/death_valley_2014.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_16/highs_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_16/csv-analysis/highs_lows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_16/sitka_weather_07-2014.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_16/csv-analysis/sitka_weather_07-2014.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_16/sitka_weather_2014.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_16/csv-analysis/sitka_weather_2014.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter_16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter_16/json-analysis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -51,16 +63,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pythonProject\data-visualization\chapter_16\json-analysis" />
       <recent name="D:\pythonProject\data-visualization\chapter_16" />
       <recent name="D:\pythonProject\data-visualization\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pythonProject\data-visualization\chapter_16\csv-analysis" />
       <recent name="D:\pythonProject\data-visualization\chapter_15" />
       <recent name="D:\pythonProject\data-visualization\matplotlib-types" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.highs_lows">
-    <configuration name="die_visual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.world_population">
+    <configuration name="americas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data-visualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,12 +82,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pygal-types" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_16/json-analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pygal-types/die_visual.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_16/json-analysis/americas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="highs_lows" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="countries" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data-visualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,12 +104,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_16/json-analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_16/highs_lows.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_16/json-analysis/countries.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="country_codes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data-visualization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_16/json-analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_16/json-analysis/country_codes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mpl_squares" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="na_populations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data-visualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,12 +170,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_15/matplotlib-types/Line-chart" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_16/json-analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_15/matplotlib-types/Line-chart/mpl_squares.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_16/json-analysis/na_populations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rw_plot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="world_population" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data-visualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,34 +192,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random-walk" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_16/json-analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random-walk/rw_plot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rw_visual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="data-visualization" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random-walk" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random-walk/rw_visual.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_16/json-analysis/world_population.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.highs_lows" />
-        <item itemvalue="Python.mpl_squares" />
-        <item itemvalue="Python.die_visual" />
-        <item itemvalue="Python.rw_visual" />
-        <item itemvalue="Python.rw_plot" />
+        <item itemvalue="Python.world_population" />
+        <item itemvalue="Python.na_populations" />
+        <item itemvalue="Python.americas" />
+        <item itemvalue="Python.country_codes" />
+        <item itemvalue="Python.countries" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +231,8 @@
       <workItem from="1636624643343" duration="210000" />
       <workItem from="1636683154030" duration="8038000" />
       <workItem from="1637029215178" duration="303000" />
-      <workItem from="1637029529557" duration="15495000" />
+      <workItem from="1637029529557" duration="15523000" />
+      <workItem from="1637110939056" duration="10193000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1636514887799</created>
@@ -282,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637056439920</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="logs">
+      <created>1637057506734</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637057506734</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,14 +331,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="logs" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/data_visualization$americas.coverage" NAME="americas Coverage Results" MODIFIED="1637119060298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_16/json-analysis" />
     <SUITE FILE_PATH="coverage/data_visualization$highs_lows.coverage" NAME="highs_lows Coverage Results" MODIFIED="1637057338601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_16" />
     <SUITE FILE_PATH="coverage/data_visualization$rw_visual.coverage" NAME="rw_visual Coverage Results" MODIFIED="1636688750093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random-walk" />
-    <SUITE FILE_PATH="coverage/data_visualization$die_visual.coverage" NAME="die_visual Coverage Results" MODIFIED="1637033834567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygal-types" />
     <SUITE FILE_PATH="coverage/data_visualization$hexbin.coverage" NAME="hexbin Coverage Results" MODIFIED="1636598426789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/data_visualization$scatter_squares.coverage" NAME="scatter_squares Coverage Results" MODIFIED="1636598978669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/data_visualization$scatter_squares__1_.coverage" NAME="scatter_squares (1) Coverage Results" MODIFIED="1636684394623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Line-chart" />
     <SUITE FILE_PATH="coverage/data_visualization$rw_plot.coverage" NAME="rw_plot Coverage Results" MODIFIED="1636687333947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random-walk" />
     <SUITE FILE_PATH="coverage/data_visualization$mpl_squares.coverage" NAME="mpl_squares Coverage Results" MODIFIED="1637054240868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_15/matplotlib-types/Line-chart" />
+    <SUITE FILE_PATH="coverage/data_visualization$countries.coverage" NAME="countries Coverage Results" MODIFIED="1637117031490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_16/json-analysis" />
+    <SUITE FILE_PATH="coverage/data_visualization$na_populations.coverage" NAME="na_populations Coverage Results" MODIFIED="1637119661558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_16/json-analysis" />
+    <SUITE FILE_PATH="coverage/data_visualization$die_visual.coverage" NAME="die_visual Coverage Results" MODIFIED="1637033834567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygal-types" />
+    <SUITE FILE_PATH="coverage/data_visualization$country_codes.coverage" NAME="country_codes Coverage Results" MODIFIED="1637117978470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_16/json-analysis" />
+    <SUITE FILE_PATH="coverage/data_visualization$world_population.coverage" NAME="world_population Coverage Results" MODIFIED="1637121246865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_16/json-analysis" />
     <SUITE FILE_PATH="coverage/data_visualization$test.coverage" NAME="test Coverage Results" MODIFIED="1636598746430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
   </component>
 </project>
