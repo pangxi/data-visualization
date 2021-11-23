@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="001da4ee-8833-432d-9545-761bbfee4184" name="Default Changelist" comment="logs">
-      <change afterPath="$PROJECT_DIR$/chapter_16/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_16/csv-analysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/americas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/countries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/country_codes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/na_populations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/population_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_16/json-analysis/world_population.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_16/death_valley_2014.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_16/csv-analysis/death_valley_2014.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_16/highs_lows.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_16/csv-analysis/highs_lows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_16/sitka_weather_07-2014.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_16/csv-analysis/sitka_weather_07-2014.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_16/sitka_weather_2014.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_16/csv-analysis/sitka_weather_2014.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_16/json-analysis/world_population.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_16/json-analysis/world_population.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +220,9 @@
       <workItem from="1636683154030" duration="8038000" />
       <workItem from="1637029215178" duration="303000" />
       <workItem from="1637029529557" duration="15523000" />
-      <workItem from="1637110939056" duration="10193000" />
+      <workItem from="1637110939056" duration="10209000" />
+      <workItem from="1637629682764" duration="13000" />
+      <workItem from="1637629705297" duration="4356000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1636514887799</created>
@@ -304,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637057506734</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="logs">
+      <created>1637133880898</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1637133880898</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +340,7 @@
     <SUITE FILE_PATH="coverage/data_visualization$na_populations.coverage" NAME="na_populations Coverage Results" MODIFIED="1637119661558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_16/json-analysis" />
     <SUITE FILE_PATH="coverage/data_visualization$die_visual.coverage" NAME="die_visual Coverage Results" MODIFIED="1637033834567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pygal-types" />
     <SUITE FILE_PATH="coverage/data_visualization$country_codes.coverage" NAME="country_codes Coverage Results" MODIFIED="1637117978470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_16/json-analysis" />
-    <SUITE FILE_PATH="coverage/data_visualization$world_population.coverage" NAME="world_population Coverage Results" MODIFIED="1637121246865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_16/json-analysis" />
+    <SUITE FILE_PATH="coverage/data_visualization$world_population.coverage" NAME="world_population Coverage Results" MODIFIED="1637634123397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_16/json-analysis" />
     <SUITE FILE_PATH="coverage/data_visualization$test.coverage" NAME="test Coverage Results" MODIFIED="1636598746430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
   </component>
 </project>
