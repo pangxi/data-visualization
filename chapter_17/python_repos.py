@@ -23,7 +23,7 @@ for repo_dict in repo_dicts:
     plot_dict = {
         'value': repo_dict['stargazers_count'],
         'label': repo_dict['description'],
-    }
+        'xlink': repo_dict['html_url']}
 
     plot_dicts.append(plot_dict)
 
@@ -45,23 +45,5 @@ for repo_dict in repo_dicts:
     chart.add('', plot_dicts)
     chart.render_to_file('python_repos.svg')
 
-"""
-print("Repositories returned:",len(repo_dicts))
-# 研究第一个仓库
-print("\nSelected information about first repository:")
-for repo_dict in repo_dicts:
-    print('\nName:', repo_dict['name'])
-    print('Owner:', repo_dict['owner']['login'])
-    print('Stars:', repo_dict['stargazers_count'])
-    print('Repository:', repo_dict['html_url'])
-    print('Description:', repo_dict['description'])
-
-"""
 
 
-
-# print("\nKeys:", len(repo_dict))
-# for key in sorted(repo_dict.keys()):
-#     print(key)
-# 处理结果
-# print(response_dict.keys())
